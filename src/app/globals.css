@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-heading: "Poppins";
+  --font-body: "Nunito";
+
+  --background: 220 13% 12%;
+  --foreground: 0 0% 98%;
+
+  --card: 220 13% 16%;
+  --card-foreground: 0 0% 98%;
+
+  --primary: 201 100% 46%;
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 191 71% 59%;
+  --secondary-foreground: 220 13% 12%;
+
+  --accent: 191 100% 42%;
+  --accent-foreground: 0 0% 100%;
+
+  --muted: 220 13% 18%;
+  --muted-foreground: 220 13% 70%;
+
+  --border: 220 13% 28%;
+  --ring: 191 71% 59%;
+
+  --destructive: 354 78% 56%;
+  --destructive-foreground: 0 0% 100%;
+
+  --radius: 0.875rem;
+}
+
+.dark {
+  --background: 220 13% 12%;
+  --foreground: 0 0% 98%;
+
+  --card: 220 13% 16%;
+  --card-foreground: 0 0% 98%;
+
+  --primary: 201 100% 46%;
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 191 71% 59%;
+  --secondary-foreground: 220 13% 12%;
+
+  --accent: 191 100% 42%;
+  --accent-foreground: 0 0% 100%;
+
+  --muted: 220 13% 18%;
+  --muted-foreground: 220 13% 70%;
+
+  --border: 220 13% 28%;
+  --ring: 191 71% 59%;
+
+  --destructive: 354 78% 56%;
+  --destructive-foreground: 0 0% 100%;
+}
+
+* {
+  border-color: hsl(var(--border));
+}
+
+html, body, #__next, #root {
+  background: hsl(var(--background));
+  color: hsl(var(--foreground));
+}
+
+body {
+  font-family: var(--font-press-start-2p), ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  background: hsl(var(--background));
+  color: hsl(var(--foreground));
+}

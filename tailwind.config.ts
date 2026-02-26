@@ -54,6 +54,28 @@ const config: Config = {
         input: "hsl(var(--border))"
       },
       fontFamily: {
+        sans: [
+          "var(--font-press-start-2p)",
+          "ui-monospace",
+          "SFMono-Regular",
+          "Menlo",
+          "Monaco",
+          "Consolas",
+          "Liberation Mono",
+          "Courier New",
+          "monospace"
+        ],
+        press: [
+          "var(--font-press-start-2p)",
+          "ui-monospace",
+          "SFMono-Regular",
+          "Menlo",
+          "Monaco",
+          "Consolas",
+          "Liberation Mono",
+          "Courier New",
+          "monospace"
+        ],
         heading: ["var(--font-heading)", "sans-serif"],
         body: ["var(--font-body)", "sans-serif"]
       },
