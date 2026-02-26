@@ -50,7 +50,8 @@ const config: Config = {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))"
-        }
+        },
+        input: "hsl(var(--border))"
       },
       fontFamily: {
         heading: ["var(--font-heading)", "sans-serif"],
