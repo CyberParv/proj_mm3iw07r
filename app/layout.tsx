@@ -24,8 +24,8 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${poppins.variable} ${nunito.variable}`}>
-      <body className="bg-white text-slate-800">
+    <html lang="en" className={`dark ${poppins.variable} ${nunito.variable}`}>
+      <body>
         <NavbarSticky
           logo="Coastal Dental Care"
           navItems={[
